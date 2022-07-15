@@ -1,6 +1,17 @@
 import './App.css'
-import { Greet } from './components/Greet'
-import { Message } from './components/Message'
+import './appStyles.css'
+import { PostForm } from './components/PostForm';
+// import { Form } from './components/Form'
+// import { PostList } from './components/PostList';
+// import styles from './appStyles.module.css'
+// import { Inline } from './components/Inline';
+// import { Stylesheet } from './components/Stylesheet';
+// import { NameList } from './components/NameList';
+// import  { UserGreeting } from './components/UserGreeting'
+// import { ClickHandler } from './components/ClickHandler'
+// import { Greet } from './components/Greet'
+// import { Message } from './components/Message'
+// import  { ParentComponent } from './components/ParentComponent'
 
 function App() {
   return (
@@ -12,7 +23,18 @@ function App() {
       <Greet name='Diana' heroName='Wonder Woman'>
         <p>This is children props</p>
       </Greet> */}
-      <Message />
+      {/* <Message /> */}
+      {/* <ClickHandler /> */}
+      {/* <ParentComponent /> */}
+      {/* <UserGreeting/> */}
+      {/* <NameList /> */}
+      {/* <Stylesheet /> */}
+      {/* <Inline />
+      <h1 className='error'>Error</h1>
+      <h1 className={styles.success}>Success</h1> */}
+      {/* <Form /> */}
+      {/* <PostList /> */}
+      <PostForm />
     </div>
   )
 }
